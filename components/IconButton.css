@@ -1,0 +1,13 @@
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 12px;
+    padding: 0;
+    color: white;
+  }
+  
+.icon-button:focus {
+    outline: none;
+}  

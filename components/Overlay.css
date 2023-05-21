@@ -1,0 +1,49 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+  
+  .overlay-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    background-color: #f0f0f0;
+  }
+  
+  .nav-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .nav-btn.active {
+    color: #007bff;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .overlay-content {
+    flex: 1;
+  }
+
+  .logo {
+    height: 80px;
+    margin-right: 20px;
+  }
+  
